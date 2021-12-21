@@ -39,7 +39,7 @@ body,html {
 }
 
 kbd {
-  display: block;
+    display: block;
   font-size: 4rem;
 }
 
@@ -48,4 +48,12 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+@media screen and (max-width: 696px) {
+  .keys {
+    width: 100%;
+    flex-flow: row wrap;
+  }
+
 }
